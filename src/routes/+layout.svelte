@@ -14,7 +14,7 @@
 		<slot />
 
 		<footer class="footer footer-center gap-1">
-			<p>Copyright Caligo 2024</p>
+			<p>© Caligo 2024</p>
 			<a href="/impressum">Impressum</a>
 			<a href="/privacy">Privacy policy</a>
 		</footer>
