@@ -2,7 +2,7 @@
 	import portraitBonato from '$lib/img/portrait_bonato.jpeg';
 	import portraitDeCeglia from '$lib/img/portrait_de_ceglia.jpeg';
 	import portraitZamuner from '$lib/img/portrait_zamuner.jpeg';
-	import heroBackground from '$lib/img/obfuscated-fingerprint.jpg';
+	import heroBackground from '$lib/img/obfuscated-fingerprint-symmetrical.webp';
 
 	const profiles = [
 		{
@@ -35,7 +35,9 @@
 		<div class="hero-content pb-32 pt-48 text-center">
 			<div class="max-w-xl">
 				<img src="/logo-white.svg" alt="caligo logo" class="mb-5" />
-				<p class="mb-16 rounded text-xl italic">generative AI that doesn't steal your data</p>
+				<p class="mb-16 rounded text-xl font-bold italic">
+					generative AI that doesn't steal your data
+				</p>
 				<a href="mailto:info@caligo.ai" class="btn-secondary-content btn">Get in touch</a>
 			</div>
 		</div>
