@@ -30,16 +30,12 @@
 </script>
 
 <div class="flex flex-col items-center">
-	<div
-		class="hero mb-48 w-full bg-secondary py-48"
-		style={`background-image: url(${heroBackground});`}
-	>
-		<div class="hero-content text-center">
+	<div class="hero mb-48 w-full bg-secondary" style={`background-image: url(${heroBackground});`}>
+		<div class="hero-overlay h-full bg-opacity-50" />
+		<div class="hero-content py-48 text-center">
 			<div class="max-w-xl">
 				<img src="/logo-white.svg" alt="caligo logo" class="mb-5" />
-				<p class="mb-16 rounded bg-base-100 bg-opacity-50 text-xl italic">
-					generative AI that doesn't steal your data
-				</p>
+				<p class="mb-16 rounded text-xl italic">generative AI that doesn't steal your data</p>
 				<a href="mailto:info@caligo.ai" class="btn-secondary-content btn">Get in touch</a>
 			</div>
 		</div>
