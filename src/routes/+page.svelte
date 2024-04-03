@@ -2,6 +2,7 @@
 	import portraitBonato from '$lib/img/portrait_bonato.jpeg';
 	import portraitDeCeglia from '$lib/img/portrait_de_ceglia.jpeg';
 	import portraitZamuner from '$lib/img/portrait_zamuner.jpeg';
+	import heroBackground from '$lib/img/obfuscated-fingerprint.jpg';
 
 	const profiles = [
 		{
@@ -29,11 +30,16 @@
 </script>
 
 <div class="flex flex-col items-center">
-	<div class="hero mb-48 w-full bg-secondary py-48">
-		<div class="hero-content text-center text-secondary-content">
+	<div
+		class="hero mb-48 w-full bg-secondary py-48"
+		style={`background-image: url(${heroBackground});`}
+	>
+		<div class="hero-content text-center">
 			<div class="max-w-xl">
-				<img src="/logo.svg" alt="caligo logo" class="mb-5" />
-				<p class="mb-16 text-xl italic">generative AI that doesn't steal your data</p>
+				<img src="/logo-white.svg" alt="caligo logo" class="mb-5" />
+				<p class="mb-16 rounded bg-base-100 bg-opacity-50 text-xl italic">
+					generative AI that doesn't steal your data
+				</p>
 				<a href="mailto:info@caligo.ai" class="btn-secondary-content btn">Get in touch</a>
 			</div>
 		</div>
