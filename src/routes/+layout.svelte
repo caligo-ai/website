@@ -10,7 +10,7 @@
 		<a class="btn btn-ghost" href="/#about">About</a>
 	</div>
 
-	<main class="w-full overflow-scroll">
+	<main class="w-full overflow-y-scroll">
 		<slot />
 
 		<footer class="footer footer-center gap-1">
