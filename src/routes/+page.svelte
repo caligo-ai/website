@@ -32,7 +32,7 @@
 <div class="flex flex-col items-center">
 	<div class="hero mb-48 w-full bg-secondary" style={`background-image: url(${heroBackground});`}>
 		<div class="hero-overlay h-full bg-opacity-50" />
-		<div class="hero-content py-48 text-center">
+		<div class="hero-content pb-32 pt-48 text-center">
 			<div class="max-w-xl">
 				<img src="/logo-white.svg" alt="caligo logo" class="mb-5" />
 				<p class="mb-16 rounded text-xl italic">generative AI that doesn't steal your data</p>
