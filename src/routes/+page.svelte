@@ -24,7 +24,7 @@
 		imagining this world; we're building it.
 	</HeroText>
 
-	<HeroText background={padlock} title="The Privacy Paradox in Today's AI">
+	<HeroText background={padlock} title="Envision a Future Where Privacy and AI Coexist">
 		In an era where data is king, the conventional use of artificial intelligence poses a paradox;
 		it demands access to vast amounts of personal and sensitive data, risking privacy and security.
 		Businesses and individuals alike are forced to choose between innovation and privacy.
