@@ -38,7 +38,7 @@
 		<div class="hero-content pb-32 pt-48 text-center">
 			<div class="max-w-xl">
 				<img src="/logo-white.svg" alt="caligo logo" class="mb-5" />
-				<p class="mb-16 rounded text-xl font-bold italic">
+				<p class="mb-16 rounded text-2xl font-bold italic">
 					generative AI that doesn't steal your data
 				</p>
 				<a href="mailto:info@caligo.ai" class="btn-secondary-content btn">Get in touch</a>
