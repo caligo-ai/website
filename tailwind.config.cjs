@@ -3,7 +3,11 @@ const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {
+			fontFamily: {
+				sans: ['Nunito', 'ui-sans-serif', 'sans-serif']
+			}
+		}
 	},
 
 	plugins: [require('@tailwindcss/typography'), require('daisyui')],
