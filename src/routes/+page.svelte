@@ -8,11 +8,13 @@
 	import future from '$lib/img/future.webp';
 	import padlock from '$lib/img/padlock.webp';
 	import AboutUs from './AboutUs.svelte';
+
+	import {base} from "$app/paths"
 </script>
 
 <div class="flex flex-col items-center">
 	<Hero background={fingerprint}>
-		<img src="/logo-white.svg" alt="caligo logo" class="mb-5" />
+		<img src="{base}/logo-white.svg" alt="caligo logo" class="mb-5" />
 		<p class="mb-16 text-2xl font-bold italic">generative AI that doesn't steal your data</p>
 		<a href="mailto:info@caligo.ai" class="btn-secondary-content btn">Get in touch</a>
 	</Hero>
