@@ -26,7 +26,7 @@
 		intelligence while keeping your data completely secure.
 	</HeroText>
 
-	<HeroText background={processing} title="We can't steal your data - because we don't have it">
+	<HeroText background={processing} title="Your data is safe from everyone, even from us">
 		Our unique approach to AI ensures that your data is never stored or shared. Instead, our
 		algorithm processes your data in real-time, without ever decrypting it. This means that you can
 		run AI pipelines on confidential data such as medical records, legal records, financial
