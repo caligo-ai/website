@@ -35,7 +35,7 @@
 
 	<HeroText background={isolated} title="Tailored to your needs">
 		Our models can be fine-tuned to meet your specific requirements, again without ever exposing
-		your training data -- not even to us. Your model runs on an isolated instance, and all training
+		your training data - not even to us. Your model runs on an isolated instance, and all training
 		data is obfuscated on your premises before being transmitted.
 	</HeroText>
 
