@@ -18,8 +18,8 @@
 
 		<footer class="footer footer-center mb-6 gap-1">
 			<p>© Caligo 2024</p>
-			<a href="{base}/impressum">Impressum</a>
-			<a href="{base}/privacy">Privacy policy</a>
+			<!-- <a href="{base}/impressum">Impressum</a>
+			<a href="{base}/privacy">Privacy policy</a> -->
 		</footer>
 	</main>
 </div>
