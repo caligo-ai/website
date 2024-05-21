@@ -40,11 +40,7 @@
 	</HeroText>
 
 	<HeroText background={mandala} title="Mission" id="mission">
-		Caligo is at the forefront of integrating privacy with artificial intelligence. Our mission is
-		to provide powerful AI solutions that are inherently private and secure through our innovative
-		obfuscation technology. We ensure that sensitive data never needs to be compromised, enabling
-		businesses as well as public and private organizations to embrace AI with confidence. At Caligo,
-		we protect your privacy as we propel your progress, making AI safe and accessible for all.
+		Become the go-to partner in AI automation involving private and sensitive data.
 	</HeroText>
 
 	<AboutUs />
