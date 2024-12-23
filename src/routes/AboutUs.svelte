@@ -1,29 +1,30 @@
 <script lang="ts">
 	import portraitBonato from '$lib/img/portrait_bonato.jpeg';
 	import portraitDeCeglia from '$lib/img/portrait_de_ceglia.jpeg';
-	import portraitZamuner from '$lib/img/portrait_zamuner.jpeg';
+	import portraitWest from '$lib/img/portrait_west.jpeg';
+	import IconLinkedIn from './IconLinkedIn.svelte';
 
 	const profiles = [
 		{
 			name: 'Leo Bonato',
-			degree: 'PhD Physics',
+			degree: 'Software engineer',
 			role: 'Co-founder',
 			img: portraitBonato,
 			linkedin: 'https://www.linkedin.com/in/leo-bonato/'
 		},
 		{
 			name: 'Roberta De Ceglia',
-			degree: 'PhD Translational Medicine',
+			degree: 'Project manager',
 			role: 'Co-founder',
 			img: portraitDeCeglia,
 			linkedin: 'https://www.linkedin.com/in/robertadeceglia/'
 		},
 		{
-			name: 'Stefano Zamuner',
-			degree: 'PhD Physics',
+			name: 'Kumeshnee West',
+			degree: 'Business developer',
 			role: 'Co-founder',
-			img: portraitZamuner,
-			linkedin: 'https://www.linkedin.com/in/stefano-zamuner/'
+			img: portraitWest,
+			linkedin: 'https://www.linkedin.com/in/kumeshneewest/'
 		}
 	];
 </script>
@@ -33,7 +34,15 @@
 	<div class="flex flex-row justify-evenly">
 		{#each profiles as profile (profile.name)}
 			<div class="flex flex-col items-center">
-				<img src={profile.img} alt={profile.name} class="mb-4 h-48 w-48 rounded-full" />
+				<div class="relative mb-4 h-48 w-48">
+					<img
+						src={profile.img}
+						alt={profile.name}
+						class="absolute m-0 h-full w-full rounded-full"
+					/>
+					<div class="absolute h-full w-full rounded-full bg-secondary-content bg-opacity-30" />
+					<IconLinkedIn href={profile.linkedin} />
+				</div>
 				<p class="m-0 text-lg font-bold">{profile.name}</p>
 				<p class="m-0 mb-2 text-sm">{profile.degree}</p>
 				<p class="m-0 mb-2">{profile.role}</p>
